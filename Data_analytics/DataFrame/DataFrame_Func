@@ -1,0 +1,9 @@
+# 행 변경: dp.index([새로운 행 배열])
+# 열 변경: dp.index([새로운 열 배열])
+
+# 행 변경2: dp.rename(index={기존이름: 새이름})
+# 열 변경2: dp.rename(columns={기존이름: 새이름})
+
+# 행 삭제: dp.drop(한개일 경우 ''로 가능 여러개일 경우 []사용, axis= 0),inplace = True) #axis 1은 열 axis 0은 행 
+# 열 삭제: dp.drop(한개일 경우 ''로 가능 여러개일 경우 []사용, axis=1, inplace = True)
+
