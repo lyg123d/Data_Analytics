@@ -6,6 +6,6 @@ print(sr)
 
 idx = sr.index #인덱스 배열은 idx에 저장
 val = sr.values # 데이터 값 배열은 val에 저장
-print(idx)
-print('\n')
-print(val)
+# print(idx)
+# print('\n')
+# print(val)
